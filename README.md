@@ -10,6 +10,8 @@
 
 You can see it in action here: http://todolist-env.nakins5fmz.us-east-2.elasticbeanstalk.com/#
 
+Link to source code on GitHub: https://github.com/chelseametcalf/ToDoList
+
 Users are able to add a task, delete a task, edit a task, complete a task, complete all tasks, delete all tasks, and view details about the task. There are two viewing modes. One to show the not completed list and another to show all the tasks (complete or incomplete). If a task is overdue, the text color will turn red. A user can also choose to mark a task as incomplete by simply unchecking the checkbox and then pressing the complete button.
 
 There are JUNIT test cases to test the functionality of the ToDoList object.
