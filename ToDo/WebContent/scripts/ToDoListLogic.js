@@ -224,7 +224,7 @@ function editTask(rowId) {		// Editing a task
 	      	    			$(taskTable.rows.item(currentRowId+1).closest('tr')).css('color', '#000000');
 	      	    		}
 	      	    		$('#taskTable').DataTable().draw();
-	      	    		alert("Edit was successful.");
+	      	    		//alert("Edit was successful.");
 	      	    }
 	      	    else if (jsonObj.successEdit == "false") {
 	      	    		alert("Edit unsucessful. Data not found.");
